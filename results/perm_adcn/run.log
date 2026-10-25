@@ -1,0 +1,9 @@
+2026-10-25 15:54:23,177 - INFO - Rows: 88 (subject level) | subjects: 88 | columns: 1596 | families: spectral, complexity, connectivity, riemann
+2026-10-25 15:54:23,177 - INFO -   AD: 36 subjects
+2026-10-25 15:54:23,177 - INFO -   CN: 29 subjects
+2026-10-25 15:54:23,177 - INFO -   FTD: 23 subjects
+2026-10-25 15:54:23,177 - INFO - NaN: 0 | Inf: 0
+2026-10-25 15:54:23,576 - INFO - 1 configurations, 20 runs, 200 fold jobs (n_jobs=-1) -> results/perm_adcn
+2026-10-25 18:01:17,646 - INFO - Finished in 126.9 min
+2026-10-25 18:01:17,826 - INFO - AD_CN | auto | all | all: bal_acc=0.820±0.000 sens=0.778 spec=0.862 auc=0.829 perm_p=0.050 [models: LDAx7, SVMx2, RandomForestx1; families: riemannx9, spectralx6, complexityx6, connectivityx3]
+2026-10-25 18:01:17,836 - INFO - Saved results.csv, summary.md, subject_predictions.csv, best_params.jsonl to results/perm_adcn

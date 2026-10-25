@@ -1,0 +1,11 @@
+2026-10-25 10:06:00,894 - INFO - Rows: 88 (subject level) | subjects: 88 | columns: 240 | families: spectral, complexity, connectivity, riemann
+2026-10-25 10:06:00,894 - INFO -   AD: 36 subjects
+2026-10-25 10:06:00,894 - INFO -   CN: 29 subjects
+2026-10-25 10:06:00,894 - INFO -   FTD: 23 subjects
+2026-10-25 10:06:00,894 - INFO - NaN: 0 | Inf: 0
+2026-10-25 10:06:01,055 - INFO - 3 configurations, 9 runs, 90 fold jobs (n_jobs=-1) -> results/regions_auto
+2026-10-25 10:45:40,800 - INFO - Finished in 39.7 min
+2026-10-25 10:45:40,840 - INFO - AD_CN | auto | all | all: bal_acc=0.796±0.023 sens=0.741 spec=0.851 auc=0.848 [models: LDAx12, RandomForestx7, SVMx6, LogRegx4, FamilyVotex1; families: riemannx27, spectralx19, complexityx11, connectivityx9]
+2026-10-25 10:45:40,866 - INFO - FTD_CN | auto | all | all: bal_acc=0.712±0.019 sens=0.609 spec=0.816 auc=0.738 [models: FamilyVotex11, RandomForestx10, LDAx5, LogRegx3, SVMx1; families: riemannx22, spectralx19, complexityx18, connectivityx13]
+2026-10-25 10:45:40,890 - INFO - AD_FTD | auto | all | all: bal_acc=0.598±0.058 sens=0.594 spec=0.602 auc=0.599 [models: FamilyVotex12, LDAx11, LogRegx3, SVMx3, RandomForestx1; families: riemannx21, spectralx19, complexityx19, connectivityx15]
+2026-10-25 10:45:40,896 - INFO - Saved results.csv, summary.md, subject_predictions.csv, best_params.jsonl to results/regions_auto

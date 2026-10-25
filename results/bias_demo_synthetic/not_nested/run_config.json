@@ -1,0 +1,33 @@
+{
+  "n_trials": 20,
+  "inner_folds": 5,
+  "outer_folds": 0,
+  "nested": false,
+  "seed": 42,
+  "data": "synthetic_1row.npz (python scripts/make_synthetic_data.py 1 synthetic_1row.npz)",
+  "out_dir": "results/bias_demo_synthetic/not_nested",
+  "tasks": [
+    "AD_CN",
+    "FTD_CN",
+    "AD_FTD"
+  ],
+  "models": [
+    "SVM",
+    "KNN"
+  ],
+  "feature_sets": [
+    "rbp",
+    "cpte"
+  ],
+  "bands": [
+    "delta",
+    "theta",
+    "beta",
+    "gamma"
+  ],
+  "rbp_layout": "band-major",
+  "no_nested": true,
+  "n_jobs": 4,
+  "quick": false,
+  "note": "Produced by an earlier version of eeg_bandwise_classification.py, where feature sets were named rbp/cpte (now spectral/cpte)."
+}

@@ -1,0 +1,18 @@
+# Data (rebuild with: eeg_bandwise_classification.py download / extract)
+data/
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Tool output
+catboost_info/
+*.db
+*.log
+!results/**/run.log
+
+# OS
+.DS_Store

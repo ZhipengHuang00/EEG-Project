@@ -1,0 +1,32 @@
+{
+  "command": "classify",
+  "data": "features_ds004504.npz",
+  "out_dir": "results/loso_auto",
+  "tasks": [
+    "AD_CN",
+    "FTD_CN",
+    "AD_FTD"
+  ],
+  "models": [
+    "auto"
+  ],
+  "feature_sets": [
+    "all"
+  ],
+  "bands": [
+    "all"
+  ],
+  "unit": "subject",
+  "max_epochs": 40,
+  "spatial": "channels",
+  "rbp_layout": "band-major",
+  "n_trials": 30,
+  "inner_folds": 5,
+  "outer_folds": 0,
+  "repeats": 1,
+  "permutations": 0,
+  "no_nested": false,
+  "n_jobs": -1,
+  "seed": 42,
+  "quick": false
+}

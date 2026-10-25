@@ -1,0 +1,2 @@
+task,model,feature_set,band,n_features,n_subjects,balanced_accuracy,balanced_accuracy_sd,accuracy,accuracy_sd,sensitivity,sensitivity_sd,specificity,specificity_sd,precision,precision_sd,f1,f1_sd,roc_auc,roc_auc_sd,n_failed_subjects,choices,perm_null_mean,perm_p
+AD_CN,auto,all,all,3762,65,0.8199233716475096,,0.8153846153846154,,0.7777777777777778,,0.8620689655172413,,0.875,,0.8235294117647058,,0.8290229885057471,,0,"models: LDAx7, SVMx2, RandomForestx1; families: riemannx9, spectralx6, complexityx6, connectivityx3",0.4604254890098811,0.05

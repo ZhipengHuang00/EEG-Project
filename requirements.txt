@@ -1,0 +1,15 @@
+numpy>=1.23
+pandas>=1.4
+scipy>=1.9
+scikit-learn>=1.2  # SimpleImputer(keep_empty_features=...)
+optuna>=3.0
+threadpoolctl>=3.1  # older versions crash KNN with recent OpenBLAS builds
+# feature extraction (extract subcommand) and the riemann family
+mne>=1.4
+pymatreader>=0.0.30  # MNE needs it to read some EEGLAB .set files
+antropy>=0.1.6
+pyriemann>=0.5
+# optional boosted models (only needed if selected with --models)
+xgboost>=1.7
+catboost>=1.2
+lightgbm>=3.3

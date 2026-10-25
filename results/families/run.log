@@ -1,0 +1,23 @@
+2026-10-25 12:59:46,841 - INFO - Rows: 88 (subject level) | subjects: 88 | columns: 1596 | families: spectral, complexity, connectivity, riemann
+2026-10-25 12:59:46,841 - INFO -   AD: 36 subjects
+2026-10-25 12:59:46,841 - INFO -   CN: 29 subjects
+2026-10-25 12:59:46,841 - INFO -   FTD: 23 subjects
+2026-10-25 12:59:46,841 - INFO - NaN: 0 | Inf: 0
+2026-10-25 12:59:47,112 - INFO - 15 configurations, 15 runs, 150 fold jobs (n_jobs=-1) -> results/families
+2026-10-25 14:10:50,535 - INFO - Finished in 71.1 min
+2026-10-25 14:10:50,572 - INFO - AD_CN | LDA | spectral | all: bal_acc=0.692±0.000 sens=0.694 spec=0.690 auc=0.800
+2026-10-25 14:10:50,584 - INFO - AD_CN | LDA | complexity | all: bal_acc=0.737±0.000 sens=0.750 spec=0.724 auc=0.772
+2026-10-25 14:10:50,595 - INFO - AD_CN | LDA | connectivity | all: bal_acc=0.675±0.000 sens=0.694 spec=0.655 auc=0.727
+2026-10-25 14:10:50,605 - INFO - AD_CN | LDA | riemann | all: bal_acc=0.830±0.000 sens=0.833 spec=0.828 auc=0.872
+2026-10-25 14:10:50,615 - INFO - AD_CN | LDA | all | all: bal_acc=0.789±0.000 sens=0.750 spec=0.828 auc=0.801
+2026-10-25 14:10:50,626 - INFO - FTD_CN | LDA | spectral | all: bal_acc=0.757±0.000 sens=0.652 spec=0.862 auc=0.850
+2026-10-25 14:10:50,636 - INFO - FTD_CN | LDA | complexity | all: bal_acc=0.744±0.000 sens=0.696 spec=0.793 auc=0.741
+2026-10-25 14:10:50,647 - INFO - FTD_CN | LDA | connectivity | all: bal_acc=0.632±0.000 sens=0.609 spec=0.655 auc=0.720
+2026-10-25 14:10:50,659 - INFO - FTD_CN | LDA | riemann | all: bal_acc=0.701±0.000 sens=0.609 spec=0.793 auc=0.729
+2026-10-25 14:10:50,670 - INFO - FTD_CN | LDA | all | all: bal_acc=0.705±0.000 sens=0.652 spec=0.759 auc=0.780
+2026-10-25 14:10:50,682 - INFO - AD_FTD | LDA | spectral | all: bal_acc=0.557±0.000 sens=0.391 spec=0.722 auc=0.645
+2026-10-25 14:10:50,692 - INFO - AD_FTD | LDA | complexity | all: bal_acc=0.606±0.000 sens=0.435 spec=0.778 auc=0.589
+2026-10-25 14:10:50,705 - INFO - AD_FTD | LDA | connectivity | all: bal_acc=0.450±0.000 sens=0.261 spec=0.639 auc=0.432
+2026-10-25 14:10:50,719 - INFO - AD_FTD | LDA | riemann | all: bal_acc=0.580±0.000 sens=0.522 spec=0.639 auc=0.606
+2026-10-25 14:10:50,733 - INFO - AD_FTD | LDA | all | all: bal_acc=0.517±0.000 sens=0.478 spec=0.556 auc=0.580
+2026-10-25 14:10:50,747 - INFO - Saved results.csv, summary.md, subject_predictions.csv, best_params.jsonl to results/families
